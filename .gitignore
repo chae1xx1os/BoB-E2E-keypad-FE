@@ -10,6 +10,7 @@
 
 # production
 /build
+/dist/
 
 # misc
 .DS_Store
@@ -21,3 +22,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# 시스템 파일들
+Thumbs.db
+
+# IDE 관련 파일들 (필요 시 추가)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 환경 변수 파일 (비공개 설정이 필요할 경우)
+.env
